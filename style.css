@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+}
+.nav-content{
+    width:100%;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color:#a855f7;
+    cursor: pointer;
+    margin: auto;
+    
+}
+nav .logo a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #a855f7;
+    transition: 0.3s;
+}
+nav .logo a:hover{
+    color: #993aff;
+}
+nav .checkbox{
+    display: none;
+}
+nav input{
+    display: none;
+}
+nav .checkbox i{
+    font-size: 2rem;
+    color:#a855f7;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+ul li a{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s;
+}
+ul li a:hover{
+    border-top-color:#ca8a04;
+    border-bottom-color:#ca8a04 ;
+    color:#ca8a04;
+}
+.main-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18px;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color:black;
+    margin-bottom: 1rem;
+}
+.status{
+    font-weight:600;
+}
+.description{
+    line-height: 1.5rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+    margin:10px 18px;
+}
+.action_buttons{
+    display: flex;
+    gap: 1rem;
+    margin: 15px 15px;
+}
+.action_buttons button{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid #a855f7;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.hire_me{
+    background-color: #a855f7;
+}
+.hire_me:hover{
+    background-color: #993aff;
+    color: white;
+}
+.Portfolio{
+    color: #a855f7;
+}
+.Portfolio:hover{
+    background-color: #993aff;
+    color: white;
+}
+.images{
+    display: grid;
+    place-items: center;
+}
+.images img{
+    width: min(30rem,76%);
+    border-radius: 6%;
+}
+
+    
+
+
